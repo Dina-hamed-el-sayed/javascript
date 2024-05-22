@@ -1,0 +1,49 @@
+
+
+
+body {
+    text-align: center;
+    height: 100vh;
+    background-image: url(../images.jfif);
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 15rem;
+}
+
+.quotes-items {
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    max-width: 800px;
+    width: 100%; 
+    height: auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.quotes-items i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 2rem;
+}
+
+.quotes-items h2 {
+    color: rgb(250, 136, 29);
+}
+
+.quotes-items button {
+    background-color: rgb(235, 180, 31);
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    padding: 0.5rem;
+}
